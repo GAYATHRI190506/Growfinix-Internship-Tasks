@@ -1,0 +1,32 @@
+{
+    "Objects": [
+        "person"
+    ],
+    "Dominant Colors": [
+        [
+            180,
+            100,
+            78
+        ],
+        [
+            2,
+            1,
+            0
+        ],
+        [
+            237,
+            220,
+            205
+        ]
+    ],
+    "Brightness": 108.9,
+    "Contrast": 98.04,
+    "Lighting": "Normal",
+    "Tags": [
+        "person",
+        "RGB(180, 100, 78)",
+        "RGB(2, 1, 0)",
+        "RGB(237, 220, 205)",
+        "Normal"
+    ]
+}
