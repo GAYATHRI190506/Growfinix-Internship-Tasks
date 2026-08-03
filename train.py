@@ -4,6 +4,9 @@ import mlflow.sklearn
 import joblib
 import os
 
+
+
+os.environ["MLFLOW_ALLOW_FILE_STORE"] = "true"
 mlflow.set_tracking_uri("file:./mlruns")
 
 from sklearn.model_selection import train_test_split
