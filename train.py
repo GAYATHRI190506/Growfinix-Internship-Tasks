@@ -76,7 +76,10 @@ with mlflow.start_run():
 
     mlflow.log_metric("Accuracy", accuracy)
 
-    mlflow.sklearn.log_model(model, "IPL_Model")
+   try:
+    mlflow.sklearn.log_model(model, name="IPL_Model")
+except Exception as e:
+    print("MLflow model logging skipped:", e)
 
     os.makedirs("model", exist_ok=True)
 
