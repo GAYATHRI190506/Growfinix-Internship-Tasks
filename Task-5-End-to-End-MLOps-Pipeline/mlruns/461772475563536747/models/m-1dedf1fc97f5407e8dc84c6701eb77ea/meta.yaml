@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Madaraboina Gayathri/OneDrive/Desktop/IPL_MLOPS/mlruns/461772475563536747/models/m-1dedf1fc97f5407e8dc84c6701eb77ea/artifacts
+creation_timestamp: 1785816449459
+experiment_id: '461772475563536747'
+last_updated_timestamp: 1785816481316
+model_id: m-1dedf1fc97f5407e8dc84c6701eb77ea
+model_type: null
+name: IPL_Model
+source_run_id: 28977f30eb024dc68fb09f9e2326ab55
+status: 2
+status_message: null
