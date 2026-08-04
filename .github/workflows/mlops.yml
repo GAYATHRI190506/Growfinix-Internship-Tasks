@@ -9,6 +9,10 @@ jobs:
   build-and-train:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: Task-5-End-to-End-MLOps-Pipeline
+
     env:
       MLFLOW_ALLOW_FILE_STORE: "true"
 
